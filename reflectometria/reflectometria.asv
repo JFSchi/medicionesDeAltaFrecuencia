@@ -12,6 +12,7 @@ t=t*10e9;  % segundos -> nanosegundos
 rango=[1900, 2200];
 t=t(1:rango(2));
 t=t(rango(1):end);
+t=t(rango(1):rango(2));
 tension=tension(1:rango(2));
 tension=tension(rango(1):end);
 

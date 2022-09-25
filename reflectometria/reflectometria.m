@@ -6,7 +6,7 @@ t=datos.data(:,1);
 tension=datos.data(:,2);
 
 %reescalamiento de vectores:
-t=t*10e9;  % segundos -> nanosegundos
+t=t*1e9;  % segundos -> nanosegundos
 
 %rango de interes (no esta en ns, es indice del vector):
 rango=[1975, 2125];
